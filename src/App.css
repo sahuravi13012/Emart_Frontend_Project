@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+li {
+  margin-top: 20px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* body {
+  background-image: url("https://i0.wp.com/segwitz.com/wp-content/uploads/2021/09/why-ecommerce-need-mobile-apps.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: center;
+  height: fit-content;
+} */
+
+.ant-layout-sider-children {
+  background-color: #2c343b;
+}
+
+.ant-layout-sider-trigger {
+  background-color: #2c343b;
+}
+
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-layout
+  .ant-layout-sider-trigger {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  height: 48px;
+  color: #fff;
+  line-height: 48px;
+  text-align: center;
+  background: #2c343b;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+:where(.css-dev-only-do-not-override-1e3x2xa) .ant-space-compact-block {
+  display: flex;
+  margin-left: auto;
+  width: 13%;
+}
+
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-btn-compact-item:not(
+    .ant-btn-compact-first-item
+  ).ant-btn-compact-last-item {
+  background-color: #2c343b;
+}
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-btn-compact-item:not(
+    .ant-btn-compact-last-item
+  ).ant-btn-compact-first-item {
+  background-color: #2c343b;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-div-login-page {
+  animation: moveUpDown 5s infinite; /* Apply the animation to the div */
+}
